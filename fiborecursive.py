@@ -10,5 +10,5 @@ if nterms<=0:
     print("Please enter a positive integer")
 else:
     print("Fibonacci sequences:")
-    for i in range(nterms):
+    for i in range(nterms): 
         print(fib(i))
