@@ -20,7 +20,7 @@ class Node:
     def PrintTree(self):
         if self.left:
             self.left.PrintTree()
-        print(self.data)
+        print(self.data),
         if self.right:
             self.right.PrintTree()
         #use the insert method to add nodes
