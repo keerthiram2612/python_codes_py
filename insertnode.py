@@ -3,6 +3,7 @@ class Node:
         self.left=None
         self.right=None
         self.data=data
+        #compare value with parent node
     def insert(self,data): 
         if self.data:
             if data<self.data:
@@ -20,7 +21,7 @@ class Node:
     def PrintTree(self):
         if self.left:
             self.left.PrintTree()
-        print(self.data)
+        print(self.data),
         if self.right:
             self.right.PrintTree()
         #use the insert method to add nodes
